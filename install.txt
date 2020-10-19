@@ -1,0 +1,16 @@
+1. Docker is meant to run natively on Linux, so no need for virtualization as I did on Windows/mac. install via curl:
+curl -sSL https://get.docker.com|sh
+
+2. docker version
+mike@mkdc752341u:~/Desktop/DOCKER$ docker version
+Client: Docker Engine - Community
+ Version:           19.03.13
+ API version:       1.40
+ Go version:        go1.13.15
+ Git commit:        4484c46d9d
+ Built:             Wed Sep 16 17:02:36 2020
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+3. add myself to the docker group:
+sudo usermod -aG docker mike
